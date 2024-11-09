@@ -1,0 +1,810 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background for the theme */
+    color: #fff; /* White text color for contrast */
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    position: relative;
+    height: 100vh;
+    background: url('hero-image.jpg.jpg') no-repeat center center/cover; /* Replace with your image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Navigation Bar */
+.navbar {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    z-index: 10;
+}
+
+.logo a {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo a span {
+    color: #e67e22; /* Accent color */
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #e67e22; /* Accent color on hover */
+    border-radius: 5px;
+}
+
+.cta-button {
+    background-color: #e67e22;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #f39c12;
+}
+
+/* Hero Content */
+.hero-content {
+    position: relative;
+    margin-top: 50px;
+    z-index: 5;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.hero-content p {
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.cta {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #f39c12;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text */
+    line-height: 1.6;
+}
+
+/* Popular Destinations Section */
+.popular-destinations {
+    padding: 60px 20px;
+    background-color: #1a1a1a; /* Darker section background */
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #e67e22; /* Accent color */
+}
+
+.section-title p {
+    font-size: 1.2rem;
+    color: #ccc; /* Muted subheading */
+    margin-bottom: 40px;
+}
+
+.destinations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Destination Cards */
+.destination-card {
+    background-color: #2c2c2c; /* Dark card background */
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.destination-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.card-content p {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.cta-button {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.cta-button:hover {
+    background-color: #f39c12;
+}
+
+/* Hover Effect */
+.destination-card:hover {
+    transform: scale(1.05);
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text */
+    line-height: 1.6;
+}
+
+/* Exclusive Travel Packages Section */
+.exclusive-packages {
+    padding: 60px 20px;
+    background-color: #1a1a1a; /* Darker section background */
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #e67e22; /* Accent color */
+}
+
+.section-title p {
+    font-size: 1.2rem;
+    color: #ccc; /* Muted subheading */
+    margin-bottom: 40px;
+}
+
+.packages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Package Cards */
+.package-card {
+    background-color: #2c2c2c; /* Dark card background */
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.package-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.card-content p {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.cta-button {
+    background-color: #e67e22; /* Accent color */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #f39c12;
+}
+/* Hover Effect */
+.package-card:hover {
+    transform: scale(1.05);
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text */
+    line-height: 1.6;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    padding: 60px 20px;
+    background-color: #1a1a1a; /* Darker section background */
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #e67e22; /* Accent color */
+}
+
+.section-title p {
+    font-size: 1.2rem;
+    color: #ccc; /* Muted subheading */
+    margin-bottom: 40px;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Benefit Cards */
+.benefit-card {
+    background-color: #2c2c2c; /* Dark card background */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: scale(1.05); /* Hover effect for cards */
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.benefit-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.benefit-card p {
+    font-size: 1rem;
+    color: #ccc; /* Muted text for readability */
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text */
+    line-height: 1.6;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text */
+    line-height: 1.6;
+}
+/* Featured Blog Posts Section */
+.featured-blogs {
+    padding: 60px 20px;
+    background-color: #1a1a1a; /* Darker section background */
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #e67e22; /* Accent color */
+}
+
+.section-title p {
+    font-size: 1.2rem;
+    color: #ccc; /* Muted subheading */
+    margin-bottom: 40px;
+}
+
+/* Blog Grid */
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Blog Card */
+.blog-card {
+    background-color: #2c2c2c; /* Dark card background */
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    max-width: 350px;
+    transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: scale(1.05); /* Hover effect for blog cards */
+}
+
+.blog-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Blog Content */
+.blog-content {
+    padding: 20px;
+}
+
+.blog-content h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.blog-content p {
+    font-size: 1rem;
+    color: #ccc; /* Muted text for description */
+    margin-bottom: 20px;
+}
+
+/* Read More Button */
+.read-more {
+    font-size: 1rem;
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.read-more:hover {
+    color: #f39c12; /* Lighter on hover */
+}
+
+
+/* Testimonials Section */
+.testimonials {
+    padding: 60px 20px;
+    background-color: #1a1a1a; /* Darker section background */
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #e67e22; /* Accent color */
+}
+
+.section-title p {
+    font-size: 1.2rem;
+    color: #ccc; /* Muted subheading */
+    margin-bottom: 40px;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+/* Testimonial Cards */
+.testimonial-card {
+    background-color: #2c2c2c; /* Dark card background */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 350px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: scale(1.05); /* Hover effect for cards */
+}
+
+/* Client Info */
+.client-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.client-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.client-info h3 {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* Testimonial Text */
+.testimonial-text {
+    font-size: 1rem;
+    color: #ccc; /* Muted text */
+    font-style: italic;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text */
+    line-height: 1.6;
+}
+
+/* Newsletter Sign-Up Section */
+.newsletter-signup {
+    padding: 60px 20px;
+    background-color: #1a1a1a; /* Darker section background */
+    text-align: center;
+}
+
+.signup-content h2 {
+    font-size: 2.5rem;
+    color: #e67e22; /* Accent color */
+    margin-bottom: 10px;
+}
+
+.signup-content p {
+    font-size: 1.2rem;
+    color: #ccc; /* Muted text for description */
+    margin-bottom: 30px;
+}
+
+/* Sign-Up Form */
+.signup-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.signup-form input[type="email"] {
+    padding: 10px 20px;
+    width: 300px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #2c2c2c;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.signup-form input[type="email"]::placeholder {
+    color: #999; /* Placeholder color */
+}
+.signup-form button {
+    padding: 10px 20px;
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-form button:hover {
+    background-color: #f39c12; /* Lighter on hover */
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text */
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text */
+}
+
+/* Contact Section */
+.contact {
+    padding: 60px 20px;
+    background-color: #1a1a1a; /* Darker section background */
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    color: #e67e22; /* Accent color */
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    font-size: 1.2rem;
+    color: #ccc; /* Muted subheading */
+    margin-bottom: 40px;
+}
+
+/* Contact Container */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Responsive layout */
+}
+
+/* Contact Form */
+.contact-form {
+    flex: 1;
+    min-width: 300px; /* Ensures a minimum width for the form */
+    margin: 20px;
+    background-color: #2c2c2c; /* Dark form background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444; /* Dark input background */
+    color: #fff; /* White text */
+    font-size: 1rem;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e67e22; /* Accent color */
+    border: none;
+    border-radius: 5px;
+    color: #fff; /* White text */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.contact-form button:hover {
+    background-color: #f39c12; /* Lighter color on hover */
+}
+
+/* Contact Info */
+.contact-info {
+    flex: 1;
+    min-width: 250px; /* Ensures a minimum width for the info section */
+    margin: 20px;
+    text-align: left;
+    background-color: #2c2c2c; /* Dark background for info section */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-info h3 {
+    font-size: 1.8rem;
+    color: #fff; /* White text */
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #ccc; /* Muted text */
+    margin-bottom: 10px;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1); /* Hover effect for social icons */
+}
+
+
+/* Footer Section */
+.footer {
+    background-color: #1a1a1a; /* Darker footer background */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows sections to stack on smaller screens */
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px; /* Ensures a minimum width for sections */
+    margin: 0 15px;
+}
+
+.footer-section h2 {
+    font-size: 1.5rem;
+    color: #e67e22; /* Accent color */
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    font-size: 1rem;
+    color: #ccc; /* Muted text */
+}
+
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #e67e22; /* Accent color */
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #f39c12; /* Lighter color on hover */
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+.social-links img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1); /* Hover effect for social icons */
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    background-color: #121212; /* Match main background */
+    padding: 20px 0;
+}
+
+.footer-bottom p {
+    font-size: 0.9rem;
+    color: #ccc; /* Muted text for copyright */
+}
